@@ -1,0 +1,4 @@
+localStorage.getItem("mode");
+
+
+

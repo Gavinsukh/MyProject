@@ -1,0 +1,389 @@
+body{
+    margin: 0;
+    /* background: #98DDCA; */
+    background: #FAF1E6;
+}
+
+.deretanVC{
+    /* margin-top: 2vw; */
+    display: flex;
+    justify-content: space-between;
+    background: #98DDCA;
+}
+.userPP{
+display: flex;
+margin-left: 3vw;
+font-size: 2vw;
+margin-top: 1vw;
+align-items: center;
+}
+
+.userPP img{
+    height: 4vw;
+    width: 4vw;
+}
+
+.name{
+    margin-left: 1vw;
+}
+
+.shareadd{
+    margin-right: 2vw;
+    margin-top: 2vw;
+}
+.shareadd button{
+    padding: 1vw;
+    border-radius: 2vw;
+    font-size: 1vw;
+    background:#064420;
+    border:none;
+    cursor: pointer;
+    color:white;
+}
+
+.shareadd button:hover{
+    background: rgb(102, 168, 102);
+}
+
+.hyperlink{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    background: #98DDCA;
+    padding: 1vw;
+}
+
+.hyperlink button{
+    border-radius: 2vw;
+    font-size: 1vw;
+    border:none;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.downloadedit {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.downloadedit button{
+    padding: 1vw;
+    border-radius: 2vw;
+    font-size: 1vw;
+    background:rgb(23, 114, 189);
+    border:none;
+    cursor: pointer;
+    color:white;
+    margin-left: 5vw;
+    /* margin-right: 3vw; */
+}
+
+.downloadedit button:hover{
+    background: rgb(0, 204, 255);
+}
+
+/* content */
+.content{
+    /* background: blue ; */
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentheader{
+    display: flex;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    background: gray;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    justify-content: center;
+}
+
+.kotak{
+    display: flex;
+}
+
+.Desc{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(173, 173, 173, 0.781);
+}
+
+.descText{
+    font-size: 1.3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+/* garis pemisah */
+
+.whiteline{
+    border-left: 1.6vw solid white;
+    height: 39vw;
+}
+
+.dateData{
+    border-left: 12vw solid #FFDEAD;
+    height: 30vw;
+}
+
+.whiteline2{
+    border-left: 1.6vw solid white;
+    height: 30vw;
+}
+
+.partData{
+    border-left: 20vw solid #FFDEAD;
+    height: 30vw;
+}
+
+.amountData{
+    border-left: 14vw solid #FFDEAD;
+    height: 30vw;
+}
+
+
+/* SHARE */
+
+.layer2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.box2{
+    background-color: rgba(255, 255, 255, 0.74);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15vw 35vw;
+    border-radius: 0.5vw;
+}
+
+.title2{
+    color: rgb(43, 136, 105);
+    font-weight: bolder;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.tulisanChoosetype{
+    margin-top: 1vw;
+    margin-right: 5vw; 
+    width: 20vw;
+    font-weight: bolder;
+}
+
+.back4{
+    margin-right: 2vw;
+}
+
+.backbutton4{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    border-radius: 1.2vw;
+    width: 2.5vw;
+}
+
+.whiteline4{
+    background-color: white;
+    width: 100%;
+    height: 0.1vw;
+    margin-bottom: 1vw;
+}
+
+.sharecontainer img{
+    width: 2vw;
+    height: 2vw;
+    margin-right: 1vw;
+}
+
+.sharecontainer{
+    margin-right: 8vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.anyone{
+    color: gray;
+    font-size: 1.2vw;
+}
+
+.kumpulanbutton button{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 1vw;
+    line-height: 1;
+    padding: 0.6vw;
+    border-radius: 30px;
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.kumpulanbutton button:hover{
+    background: #778899;
+}
+
+.kumpulanbutton{
+    margin-bottom: 2vw;
+}
+
+.tulisanShare{
+    font-size: 2vw;
+}
+
+/* ADD PAYMENT */
+
+.layer3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+.box3{
+    background-color: rgba(255, 255, 255, 0.74);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15vw 35vw;
+    border-radius: 0.5vw;
+}
+
+.title3{
+    color: rgb(43, 136, 105);
+    font-weight: bolder;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.tulisanPayment{
+    margin-top: 1vw;
+    margin-right: 6vw; 
+    margin-left: 4.5vw;
+    width: 20vw;
+    font-weight: bolder;
+}
+
+.back5{
+    margin-right: 2vw;
+}
+
+.backbutton5{
+    margin-top: 1vw;
+    margin-left: 7vw;
+    border-radius: 1.2vw;
+    width: 2.5vw;
+}
+
+.whiteline5{
+    background-color: white;
+    width: 100%;
+    height: 0.1vw;
+    margin-bottom: 1vw;
+}
+
+.ADD{
+    margin-top: 2vw;
+}
+
+.checkbox{
+    display: flex;
+    font-size: 1.5vw;
+    width: 20vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkbox input[type="checkbox"]{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.tableDetails{
+    margin-top: 1vw;
+    font-size: 1.3vw;
+}
+
+.tableDetails input[type="text"]{
+    border: none;
+    outline: none;
+}
+
+.tableDetails td{
+    padding-bottom: 1vw;
+}
+
+.detailsField input[type="text"]{
+    padding-bottom: 3vw;
+}
+
+.ADD button{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 1.5vw;
+    line-height: 1;
+    padding: 0.6vw;
+    border-radius: 30px;
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.AddContainer{
+    margin-bottom: 2vw;
+    margin-left: 15vw;
+}
+
+.ADD button:hover{
+    background: #778899;
+}
+
+/* benerin edit */
+
+.editmode{
+    display: none;
+    margin-right: 2vw;
+}
+
+.editContainer{
+    display: none;
+    display: flex;
+    align-items: center;
+}
+
+.editmode button{
+    background: black;
+}
+
+.editmode2{
+    margin-right: 2vw;
+}
+
+textarea{
+    resize: none;
+    width: 20vw;
+    height: 5vw;
+    border: none;
+    outline: none;
+}
