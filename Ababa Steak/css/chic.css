@@ -1,0 +1,86 @@
+body{
+    background-image: url(../asset/chicken.png);
+    background-color: #191920;
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: 70% center;
+}
+
+.chickPage{
+    display: flex;
+}
+
+.gmbrChic img{
+    position: relative;
+    width: 830px;
+    height: 710px;
+}
+
+.btnChic img{
+    width: 29px;
+    position: absolute;
+    top: 60px;
+    left: 30pt;
+} 
+
+.kananChic{
+    margin-left: 45pt;
+}
+.judulChic{
+    font-family: 'Norwester', sans-serif;
+    color: #f4faec;
+    font-size: 45pt; 
+}
+
+.descChic{
+    color: #f4faec;
+    font-family: "Anonymous Pro";
+    font-size: 18.5pt;
+    margin-left: 5pt;
+    margin-top: 20pt;
+}
+
+.priceChic{
+    color: #f4faec;
+    font-family: "Anonymous Pro";
+    font-size: 24.8pt;
+    margin-top: 50pt;
+    display: flex;
+    margin-left: 5pt;
+}
+
+.rpChic{
+    margin-left: 75pt;
+}
+
+@media only screen and (max-width: 800px){
+    .chickPage{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .gmbrChic img{
+        position: relative;
+        width: auto;
+        height: 500px;
+    }
+    
+    .gmbrChic{
+        display: flex;
+        justify-content: center;
+    }
+ 
+    .kananChic{
+        margin-top: 20pt;
+        margin-left: 0;
+    }
+
+    .judulChic, .descChic, .priceChic{
+        display: flex;
+        justify-content: center;
+    }
+
+    .priceChic{
+        margin-bottom: 60pt;
+    }
+}

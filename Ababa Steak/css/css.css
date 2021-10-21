@@ -1,0 +1,286 @@
+body{
+    background-color: #191920;
+}
+
+.back{
+    display: flex;
+    color: #f4faec;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.back img{
+    /* width: 29px; */
+    width: 100%;
+    height:100%;
+    margin-top: 17px;
+}
+
+.back .button{
+    width: 3%;
+    height: 2.3%;
+}
+
+/* .pertama{
+    margin-right: -150px;
+} */
+
+.steak{
+    margin-left: 15px;
+    font-family: 'Norwester', sans-serif;
+    font-size: 42.8pt;
+}
+
+.pertama{
+    display: flex;
+}
+
+.tenderloin{
+    display: flex;
+    color: #f4faec;
+    margin-top: 30pt;
+    margin-left: 43pt;
+    box-shadow: 0 4px 8px 0 rgba(255, 251, 251, 0.2);
+    transition: 0.5s;
+    border-radius: 10px;
+    width: 39%;
+    height: 30%;
+    margin-right: 5pt;
+}
+
+.tenderloin:hover{
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.473);
+}
+
+.gmbrTender img{
+    /* width: 350px; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.gmbrTender{
+    width: 65%;
+    height: 60%;
+}
+
+.tenderbtn img{
+    /* width: 29px; */
+    width: 100%;
+    height: 100%;
+    margin-left: 10pt;
+    margin-top: 75pt;
+    margin-right: 10pt;
+}
+
+.tenderbtn{
+    width: 5%;
+    height: 11.5%;
+}
+
+.tender{
+    font-family: 'Norwester', sans-serif;
+    font-size: 16pt;
+    margin-top: 75pt;
+    margin-left: 35px;
+    width: 20%;
+}
+
+.chicken{
+    display: flex;
+    color: #f4faec;
+    margin-left:100pt;
+    margin-top: 30pt;
+    box-shadow: 0 4px 8px 0 rgba(255, 251, 251, 0.2);
+    transition: 0.5s;
+    border-radius: 10px;
+    /* margin-right: 90pt; */
+    width: 38%;
+    height: 30%;
+}
+
+.chicken:hover{
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.473);
+}
+
+.gmbrChicken img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.gmbrChicken{
+    width: 140%;
+    height: 100%;
+}
+
+.chickenbtn img{
+    width: 100%;
+    height: 100%;
+    margin-left: 10pt;
+    margin-top: 75pt;
+    margin-right: 10pt;
+}
+
+.chickenbtn{
+    width: 5%;
+    height: 11.5%;
+    margin-right: 20px;
+}
+
+.chick{
+    font-family: 'Norwester', sans-serif;
+    font-size: 16pt;
+    margin-left: 30pt;
+    margin-top: 75pt;
+    width: 38%;
+}
+
+.kedua{
+    display: flex;
+}
+
+.sirloin{
+    display: flex;
+    margin-right: 5pt;
+    color: #f4faec;
+    margin-top: 60pt;
+    margin-left: 43pt;
+    box-shadow: 0 4px 8px 0 rgba(255, 251, 251, 0.2);
+    transition: 0.5s;
+    border-radius: 10px;
+    width: 39%;
+    height: 30%;
+}
+
+.sirloin:hover{
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.473);
+}
+
+.sir{
+    font-family: 'Norwester', sans-serif;
+    margin-left: 30pt;
+    font-size: 16pt;
+    margin-top: 75pt;
+    width: 20%;
+}
+
+.sirbtn img{
+    width: 100%;
+    height: 100%;
+    margin-left: 10pt;
+    margin-top: 75pt;
+    margin-right: 10pt;
+}
+
+.sirbtn{
+    width: 5%;
+    height: 11.5%;
+}
+
+.gmbrSirloin img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.gmbrSirloin{
+    width: 65%;
+    height: 60%;
+}
+
+.salmon{
+    display: flex;
+    color: #f4faec;
+    box-shadow: 0 4px 8px 0 rgba(255, 251, 251, 0.2);
+    transition: 0.5s;
+    border-radius: 10px;
+    /* margin-left:50pt; */
+    margin-left: 100pt;
+    margin-top: 60pt;
+    /* margin-right: 90pt; */
+    width: 38%;
+    height: 30%;
+}
+
+.salmon:hover{
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.473);
+}
+
+.gmbrSalmon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.gmbrSalmon{
+    width: 140%;
+    height: 100%;
+}
+
+.fish{
+    font-family: 'Norwester', sans-serif;
+    margin-left: 30pt;
+    font-size: 16pt;
+    margin-top: 75pt;
+    width: 38%;
+}
+
+.fishbtn img{
+    width: 100%;
+    height: 100%;
+    margin-left: 10pt;
+    margin-top: 75pt;
+    margin-right: 12pt;
+}
+
+.fishbtn{
+    width: 5%;
+    height: 11.5%;
+    margin-right: 20px;
+}
+
+a{
+    color: #f4faec;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 800px){
+    .pertama {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .back img{
+        margin-top: 25px;
+    }
+
+    .kedua {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tenderloin, .salmon, .chicken, .sirloin{
+        width: 70%;
+        height: 70%;
+    }
+
+    .tenderloin, .sirloin{
+        margin-left: 130px;
+    }
+}

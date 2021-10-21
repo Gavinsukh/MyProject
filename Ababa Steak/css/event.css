@@ -1,0 +1,371 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Norwester', sans-serif;
+	color: white;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+header {
+	text-align: center;
+}
+
+header .bg-img {
+	background-image: url('../asset/event/wine\(1\).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	height: 300px;
+	/* height: 100%; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	position: relative;
+	/* padding-bottom: 100px; */
+}
+
+.container img {
+	height: 80px;
+}
+
+header .bg-img p {
+	font-size: 16.8px;
+	font-family: 'Anonymous Pro';
+	font-weight: 450;
+}
+
+main .bg-img p {
+	font-size: 16.8px;
+	font-family: 'Anonymous Pro';
+}
+
+main .container {
+	background-color: #191920;
+	height: 750px;
+	display: flex;
+	justify-content: space-around;
+	padding: 70px 20px;
+}
+
+main .container .fig-1 {
+	background-image: url('../asset/event/dinnerPartyBirthday2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center left;
+	width: 45%;
+	height: 550px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+main .container .fig-2 {
+	background-image: url('../asset/event/dinnerr.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center left;
+	width: 45%;
+	height: 550px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+main .container .fig-2 .discount {
+	margin-left: 80px;
+}
+
+main .logo {
+	margin-bottom: 15px;
+}
+
+main .title {
+	margin-bottom: 35px;
+}
+
+main .description {
+	margin-bottom: 35px;
+}
+
+main .discount {
+	display: flex;
+	align-items: center;
+}
+
+main .discount img {
+	height: 25px;
+	margin: 0 10px;
+}
+
+footer {
+	background-color: #f4faec;
+	height: 200px;
+	color: #524a4a;
+	display: flex;
+	text-align: center;
+}
+
+.left-footer {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 100px;
+}
+
+footer .left-footer p {
+	color: #524a4a;
+	font-size: 60px;
+}
+
+.left-footer img {
+	height: 150px;
+}
+
+.right-footer {
+	font-size: 25px;
+	width: 50%;
+	margin-right: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.right-footer .desc p {
+	font-size: 16.8px;
+	font-family: 'Anonymous Pro';
+	font-weight: 500;
+}
+
+footer .right-footer p {
+	color: #524a4a;
+}
+
+.email {
+	display: flex;
+}
+
+.right-footer .email p {
+	color: red;
+}
+
+.email img {
+	height: 25px;
+}
+
+/* .bg-img p{
+    font-weight: bold;
+} */
+
+.sidebar {
+	background-color: #191920;
+	position: fixed;
+	font-size: 2rem;
+	width: 20%;
+	height: 100vh;
+	left: -35rem;
+	z-index: 1;
+	transition: left 0.4s ease;
+}
+
+.sidebar .logo {
+	border-bottom: 0.1rem solid #524a4a;
+	padding: 1rem;
+	height: 30%;
+	width: 100%;
+}
+
+.sidebar .logo img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+
+.sidebar hr {
+	background-color: grey;
+}
+
+.sidebar nav {
+	height: 40%;
+	border-bottom: 0.1rem solid #524a4a;
+	padding-top: 3rem;
+}
+
+.sidebar nav li a {
+	text-decoration: none;
+}
+
+.sidebar nav li p {
+	text-align: center;
+	text-decoration: none;
+	color: #8c8f88;
+	font-weight: bold;
+	margin-bottom: 3rem;
+}
+
+.sidebar.show {
+	left: 0rem;
+}
+
+.sidebar a p:hover {
+	color: white;
+}
+
+.phone-no {
+	height: 5%;
+	border-bottom: 0.1rem solid #524a4a;
+}
+
+.phone-no p {
+	font-family: 'Anonymous Pro';
+	font-weight: bold;
+	font-size: 1.6rem;
+	color: #cdd4c4;
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.open-time {
+	height: 13%;
+	padding: 2.5rem 0;
+	text-align: center;
+	color: #cdd4c4;
+	border-bottom: 0.1rem solid #524a4a;
+}
+
+.open-time .Time {
+	font-size: 1.5rem;
+}
+
+.sidebar .social-media {
+	height: 5.5%;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 2rem;
+}
+
+.sidebar .social-media img {
+	margin-top: 0rem;
+}
+
+/* Hamburger button */
+.btn i {
+	background-color: white;
+	color: black;
+	position: absolute;
+	cursor: pointer;
+	position: fixed;
+	z-index: 2;
+	border-radius: 3px;
+	font-size: 6rem;
+	top: 2.5rem;
+	left: 2.5rem;
+	width: 6rem;
+	height: 6rem;
+	transition: left 0.4s ease;
+}
+
+.btn i:hover {
+	background-color: black;
+	color: white;
+}
+
+.btn i.click {
+	left: 32rem;
+}
+
+main .container {
+	position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+	main .container .fig-1 {
+		height: 450px;
+		width: 600px;
+		margin-right: 10pt;
+	}
+
+	main .container .fig-2 {
+		height: 450px;
+		width: 600px;
+		margin-left: 10pt;
+	}
+
+	main .container {
+		height: 600px;
+	}
+
+	footer {
+		height: 180px;
+	}
+
+	footer .left-footer p {
+		font-size: 45px;
+	}
+
+	.left-footer img {
+		height: 90px;
+	}
+
+	.left-footer {
+		margin-left: 60px;
+	}
+
+	.right-footer {
+		margin-right: 60px;
+	}
+
+	.left-footer img {
+		margin-left: 6pt;
+	}
+	/* button */
+	.side h3 {
+		margin-top: 4rem;
+	}
+
+	.style h3 {
+		margin-top: 4rem;
+	}
+
+	.style h3 .btn i {
+		font-size: 4rem;
+		width: 4rem;
+		height: 4rem;
+	}
+
+
+	.btn i.click {
+		left: 16rem;
+	}
+
+	.sidebar {
+		font-size: 150%;
+	}
+
+}
+
+a{
+    color: #f4faec;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}

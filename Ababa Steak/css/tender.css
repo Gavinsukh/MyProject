@@ -1,0 +1,98 @@
+body{
+    background-image: url(../asset/meat1.png);
+    background-color: #191920;
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: 70% center;
+    /* margin-top: 700px; */
+}
+
+.tenderPage{
+    display: flex;
+}
+
+.gmbr img{
+    position: relative;
+    width: 830px;
+    height: 710px;
+}
+
+.btn img{
+    width: 29px;
+    position: absolute;
+    top: 60px;
+    left: 30pt;
+} 
+
+.kanan{
+    margin-left: 45pt;
+}
+.judul{
+    font-family: 'Norwester', sans-serif;
+    color: #f4faec;
+    font-size: 45pt; 
+}
+
+.desc{
+    color: #f4faec;
+    font-family: "Anonymous Pro";
+    font-size: 18.5pt;
+    margin-left: 5pt;
+    margin-top: 20pt;
+}
+
+.price{
+    color: #f4faec;
+    font-family: "Anonymous Pro";
+    font-size: 24.8pt;
+    margin-top: 50pt;
+    display: flex;
+    margin-left: 5pt;
+}
+
+.rp{
+    margin-left: 75pt;
+}
+
+.cow img{
+    width: 440px;
+    margin-top: 74px;
+    margin-left: 175px;
+}
+
+@media only screen and (max-width: 800px){
+   .tenderPage{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .gmbr img{
+       position: relative;
+       width: auto;
+       height: 500px;
+   }
+   
+   .gmbr{
+       display: flex;
+       justify-content: center;
+   }
+
+   .kanan{
+       margin-top: 20pt;
+       margin-left: 0;
+   }
+
+   .cow img{
+       margin-left: 0;
+   }
+
+   .cow{
+       display: flex;
+       justify-content: center;
+   }
+
+   .judul, .desc, .price{
+       display: flex;
+       justify-content: center;
+   }
+}

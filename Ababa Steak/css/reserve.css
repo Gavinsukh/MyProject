@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Norwester', sans-serif;
+    color: #f4faec;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header .bg-img {
+    background-image: url("../asset/reserve/fancy-dining.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title{
+    font-size: 15pt;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    letter-spacing: 4px;
+}
+
+header .diamond img {
+    width: 100%;
+}
+
+header .diamond{
+    width: 10%;
+    height: 10%;
+    padding-top: 20px;
+}
+
+main {
+    color: white;
+    height: 120%;
+    background-color: #191920;
+    font-family: "Anonymous Pro";
+}
+
+.container{
+    padding: 20px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+input[type=text], input[type=date], input[type=time], select, option{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Anonymous Pro';
+    font-weight: bold;
+    background-color: #f4faec;
+    color: black;
+    font-size: 13pt;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 15pt;
+}
+
+.label{
+    width: 20%;
+}
+
+.input{
+    width: 30%;
+}
+
+.submit{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit]{
+    background-color: #ea4335;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-family: 'Anonymous Pro';
+    width: 100%;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+/* input[type=button]{
+    background-color: #f4faec;
+    color: #191920;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-family: 'Anonymous Pro';
+    width: 100%;
+    font-weight: bolder;
+    font-size: 13pt;
+} */
+
+/* .submit img{
+    width: 20%;
+} */
+
+.diamond2 img{
+    width: 100%;
+}
+
+.diamond2{
+    width: 6%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+}
+
+.inputSubmit{
+    width: 20%;
+    padding-right: 10px;
+}
+
+/* .inputt{
+    width: 15%;
+    padding-left: 10px;
+} */
+
+.sidebar {
+	background-color: #191920;
+	position: fixed;
+	font-size: 2rem;
+	width: 20%;
+	height: 100vh;
+	left: -35rem;
+	z-index: 1;
+	transition: left 0.4s ease;
+}
+
+.sidebar .logo {
+	border-bottom: 0.1rem solid #524a4a;
+	padding: 1rem;
+	height: 30%;
+	width: 100%;
+}
+
+.sidebar .logo img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+
+.sidebar hr {
+	background-color: grey;
+}
+
+.sidebar nav {
+	height: 40%;
+	border-bottom: 0.1rem solid #524a4a;
+	padding-top: 3rem;
+}
+
+.sidebar nav li a {
+	text-decoration: none;
+}
+
+.sidebar nav li p {
+	text-align: center;
+	text-decoration: none;
+	color: #8c8f88;
+	font-weight: bold;
+	margin-bottom: 3rem;
+}
+
+.sidebar.show {
+	left: 0rem;
+}
+
+.sidebar a p:hover {
+	color: white;
+}
+
+.phone-no {
+	height: 5%;
+	border-bottom: 0.1rem solid #524a4a;
+}
+
+.phone-no p {
+	font-family: 'Anonymous Pro';
+	font-weight: bold;
+	font-size: 1.6rem;
+	color: #cdd4c4;
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.open-time {
+	height: 13%;
+	padding: 2.5rem 0;
+	text-align: center;
+	color: #cdd4c4;
+	border-bottom: 0.1rem solid #524a4a;
+}
+
+.open-time .Time {
+	font-size: 1.5rem;
+}
+
+.sidebar .social-media {
+	height: 5.5%;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 2rem;
+}
+
+.sidebar .social-media img {
+	margin-top: 0rem;
+}
+
+/* Hamburger button */
+.btn i {
+	background-color: white;
+	color: black;
+	position: absolute;
+	cursor: pointer;
+	position: fixed;
+	z-index: 2;
+	border-radius: 3px;
+	font-size: 6rem;
+	top: 2.5rem;
+	left: 2.5rem;
+	width: 6rem;
+	height: 6rem;
+	transition: left 0.4s ease;
+}
+
+.btn i:hover {
+	background-color: black;
+	color: white;
+}
+
+.btn i.click {
+	left: 32rem;
+}
+
+main .container {
+	position: relative;
+}
+
+@media only screen and (max-width: 800px){
+	/* .sidebar .logo img{
+		margin-top: 60px;
+	} */
+
+	.side h3 {
+		margin-top: 4rem;
+	}
+
+	.style h3 {
+		margin-top: 4rem;
+	}
+
+	.style h3 .btn i {
+		font-size: 4rem;
+		width: 4rem;
+		height: 4rem;
+	}
+
+
+	.btn i.click {
+		left: 16rem;
+	}
+
+    .sidebar {
+		font-size: 150%;
+	}
+}
+
+h3{
+    color: #ea4335;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15pt;
+}

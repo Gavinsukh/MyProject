@@ -1,0 +1,86 @@
+body{
+    background-image: url(../asset/fish.png);
+    background-color: #191920;
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: 70% center;
+}
+
+.salPage{
+    display: flex;
+}
+
+.gmbrSal img{
+    position: relative;
+    width: 830px;
+    height: 710px;
+}
+
+.btnSal img{
+    width: 29px;
+    position: absolute;
+    top: 60px;
+    left: 30pt;
+} 
+
+.kananSal{
+    margin-left: 45pt;
+}
+.judulSal{
+    font-family: 'Norwester', sans-serif;
+    color: #f4faec;
+    font-size: 45pt; 
+}
+
+.descSal{
+    color: #f4faec;
+    font-family: "Anonymous Pro";
+    font-size: 18.5pt;
+    margin-left: 5pt;
+    margin-top: 25pt;
+}
+
+.priceSal{
+    color: #f4faec;
+    font-family: "Anonymous Pro";
+    font-size: 24.8pt;
+    margin-top: 75pt;
+    display: flex;
+    margin-left: 5pt;
+}
+
+.rpSal{
+    margin-left: 75pt;
+}
+
+@media only screen and (max-width: 800px){
+    .salPage{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .gmbrSal img{
+        position: relative;
+        width: auto;
+        height: 500px;
+    }
+    
+    .gmbrSal{
+        display: flex;
+        justify-content: center;
+    }
+ 
+    .kananSal{
+        margin-top: 20pt;
+        margin-left: 0;
+    }
+ 
+    .judulSal, .descSal, .priceSal{
+        display: flex;
+        justify-content: center;
+    }
+
+    .priceSal{
+        margin-bottom: 60pt;
+    }
+}

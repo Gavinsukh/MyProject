@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Norwester';
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body{
+    background-color: #191920;
+    background-image: url(../asset/aboutUs/steak\ \(1\).png);
+    background-repeat: no-repeat;
+    /* background-size: 300px 300px; */
+    background-size: 20% 40%;
+    background-position: 90% 75%;
+}
+
+.kiri{
+    display: flex;
+}
+
+.descAbout{
+    height: 80%;
+}
+
+.about{
+    font-family: "Anonymous Pro";
+    color: #f4faec;
+    font-size: 31.1pt;
+    font-weight: bold;
+    margin-left: 106pt;
+    /* margin-top: 27pt; */
+}
+
+.judul1{
+    font-family: 'Norwester';
+    color: #b29930;
+    font-size: 36.5pt;
+    /* margin-top: 5pt; */
+    margin-left: 20%;
+}
+
+.isi1{
+    font-family: "Anonymous Pro";
+    color: #f4faec;
+    font-weight: bold;
+    font-size: 13.4pt;
+    margin-top: 10pt;
+    text-align: justify;
+    margin-right: 100pt;
+    margin-left: 20%;
+}
+
+.gedung img{
+    /* width: 360px;
+    height: 360px; */
+    width: 100%;
+    height: 100%;
+    margin-top: 30pt;
+    margin-left: 137px;
+}
+
+.gedung{
+    width: 50%;
+    height: 20%;
+}
+
+.desc2{
+    margin-top: 55pt;
+    margin-right: 100pt;
+}
+
+.isi2{
+    font-family: 'Norwester';
+    color: #b29930;
+    font-size: 40pt;
+    text-align: center;
+    margin-bottom: 10pt;
+}
+
+.isi3{
+    font-family: 'Norwester';
+    color: #b29930;
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 10pt;
+}
+
+hr{
+    border: 1px solid #b29930;
+}
+
+.desc3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc3 .logoo img{
+    /* width: 400px; */
+    width: 100%;
+    height: 100%;
+    /* margin-top: 40pt; */
+}
+
+.desc3 .logoo{
+    width: 90%;
+    height: 50%;
+}
+
+.isi4{
+    font-family: "Anonymous Pro";
+    color: #f4faec;
+    font-weight: bold;
+    font-size: 15.9pt;
+    margin-top: 50pt;
+    text-align: justify;
+    text-align: center;
+    margin-bottom: 50pt;
+}
+
+.sidebar {
+	background-color: #191920;
+	position: fixed;
+	font-size: 2rem;
+	width: 20%;
+	height: 100vh;
+	left: -35rem;
+	z-index: 1;
+	transition: left 0.4s ease;
+}
+
+.sidebar .logo {
+	border-bottom: 0.1rem solid #524a4a;
+	padding: 1rem;
+	height: 30%;
+	width: 100%;
+}
+
+.sidebar .logo img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+
+.sidebar hr {
+	background-color: grey;
+}
+
+.sidebar nav {
+	height: 40%;
+	border-bottom: 0.1rem solid #524a4a;
+	padding-top: 3rem;
+}
+
+.sidebar nav li a {
+	text-decoration: none;
+}
+
+.sidebar nav li p {
+	text-align: center;
+	text-decoration: none;
+	color: #8c8f88;
+	font-weight: bold;
+	margin-bottom: 3rem;
+}
+
+.sidebar.show {
+	left: 0rem;
+}
+
+.sidebar a p:hover {
+	color: white;
+}
+
+.phone-no {
+	height: 5%;
+	border-bottom: 0.1rem solid #524a4a;
+}
+
+.phone-no p {
+	font-family: 'Anonymous Pro';
+	font-weight: bold;
+	font-size: 1.6rem;
+	color: #cdd4c4;
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.open-time {
+	height: 13%;
+	padding: 2.5rem 0;
+	text-align: center;
+	color: #cdd4c4;
+	border-bottom: 0.1rem solid #524a4a;
+}
+
+.open-time .Time {
+	font-size: 1.5rem;
+}
+
+.sidebar .social-media {
+	height: 5.5%;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 2rem;
+}
+
+.sidebar .social-media img {
+	margin-top: 0rem;
+}
+
+/* Hamburger button */
+.btn i {
+	background-color: white;
+	color: black;
+	position: absolute;
+	cursor: pointer;
+	position: fixed;
+	z-index: 2;
+	border-radius: 3px;
+	font-size: 6rem;
+	top: 2.5rem;
+	left: 2.5rem;
+	width: 6rem;
+	height: 6rem;
+	transition: left 0.4s ease;
+}
+
+.btn i:hover {
+	background-color: black;
+	color: white;
+}
+
+.btn i.click {
+	left: 32rem;
+}
+
+main .container {
+	position: relative;
+}
+
+@media only screen and (max-width: 800px){
+    .kiri {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .desc2{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .isi1, .gedung{
+        display: flex;
+        justify-content: center;
+    }
+
+    .gedung img{
+        margin-right: 0;
+        margin-left: 400px;
+    }
+
+    .judul1{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    body{
+        background-position: 50% 100%;
+        background-size: 40% 20%;
+    }
+
+    .isi4{
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 40pt;
+    }
+
+    .side h3 {
+		margin-top: 4rem;
+	}
+
+	.style h3 {
+		margin-top: 4rem;
+	}
+
+	.style h3 .btn i {
+		font-size: 4rem;
+		width: 4rem;
+		height: 4rem;
+	}
+
+
+	.btn i.click {
+		left: 16rem;
+	}
+
+    .sidebar {
+		font-size: 150%;
+	}
+}
+

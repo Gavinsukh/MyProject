@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reserve.css">
+    <link href="http://fonts.cdnfonts.com/css/norwester" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Anonymous+Pro" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js%22%3E"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/mvc/3.0/jquery.validate.unobtrusive.min.js%22%3E"></script>
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="logo">
+            <img src="../asset/LogoHci.png" alt="" />
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index/menu.html"> <p>MENU</p> </a>
+                </li>
+                <li>
+                    <a href="../index/home.html"> <p>OUR RESTAURANT</p> </a>
+                </li>
+                <li>
+                    <a href="../index/event.html"> <p>EVENTS</p> </a>
+                </li>
+                <li>
+                    <a href="../index/aboutUs.html"> <p>ABOUT US</p> </a>
+                </li>
+                <li>
+                    <a href="../index/reserve.html"> <p>RESERVE TABLE</p> </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="phone-no">
+            <p>081123450800</p>
+        </div>
+        <div class="open-time">
+            <p class="Day">MONDAY - SUNDAY</p>
+            <p class="Time">10 AM - 12 AM</p>
+        </div>
+        <div class="social-media">
+            <img src="../asset/instagram.png" alt="" />
+            <img src="../asset/search.png" alt="" />
+            <img src="../asset/snapchat.png" alt="" />
+            <img src="../asset/facebook.png" alt="" />
+        </div>
+    </div>
+
+    <!-- icons -->
+
+    <div class="btn">
+        <i class="material-icons">menu</i>
+    </div>
+
+    <!-- page -->
+
+    <header>
+        <div class="bg-img">
+            <div class="diamond">
+                <img src="../asset/reserve/diamond-symbol.png" alt="" />
+            </div>
+            <div class="title">
+                <h1>RESERVATION</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form name="reservationForm" id="Formid" method="put">
+                <div class="row">
+                    <div class="label">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="nama" id="name" placeholder="Input Your Name">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="label">
+                        <label for="phoneNumber">Phone Number</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="nomor" id="phoneNumber" placeholder="[0-9]">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="label">
+                        <label for="NumberPerson">Number of Person</label>
+                    </div>
+                    <div class="input">
+                        <select name="orang" id="NumberPerson">
+                            <option value="">Choose One</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 Person</option>
+                            <option value="3">3 Person</option>
+                            <option value="4">4 Person</option>
+                            <option value="5">5 Person</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="label">
+                        <label for="datee">Date</label>
+                    </div>
+                    <div class="input">
+                        <input type="date" name="tanggal" id="datee">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="label">
+                        <label for="timee">Time</label>
+                    </div>
+                    <div class="input">
+                        <input type="time" name="waktu" id="timee">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="label">
+                        <label for="coupon">Coupon Code</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="kupon" id="coupon" placeholder="Input Coupon Code [ If Available ]">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="submit">
+                        <div class="diamond2">
+                            <img src="../asset/reserve/diamonds.png" alt="">
+                        </div>
+                        <div class="inputSubmit">
+                            <input type="submit" value="Reserve" onclick="checkValidation()">
+                        </div>
+                        
+                        <div class="diamond2">
+                            <img src="../asset/reserve/diamonds.png" alt="">
+                        </div>
+                    </div>
+                </div>
+               
+                <h3 id="errorMessage">
+                    -all column must be filled-
+                </h3>
+            </form>
+        </div>
+    </main>
+    <script src="../js/sideBar.js"></script>
+    <script src="../js/reserve.js"></script>
+</body>
+</html>

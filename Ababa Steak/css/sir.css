@@ -1,0 +1,97 @@
+body{
+    background-image: url(../asset/meat.png);
+    background-color: #191920;
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: 70% center;
+}
+
+.sirPage{
+    display: flex;
+}
+
+.sirloinIMG img{
+    position: relative;
+    width: 830px;
+    height: 710px;
+}
+
+.btn1 img{
+    width: 29px;
+    position: absolute;
+    top: 60px;
+    left: 30pt;
+} 
+
+.kananSir{
+    margin-left: 45pt;
+}
+.judulSir{
+    font-family: 'Norwester', sans-serif;
+    color: #f4faec;
+    font-size: 45pt; 
+}
+
+.descSir{
+    color: #f4faec;
+    font-family: "Anonymous Pro";
+    font-size: 18.5pt;
+    margin-left: 5pt;
+    margin-top: 20pt;
+}
+
+.priceSir{
+    color: #f4faec;
+    font-family: "Anonymous Pro";
+    font-size: 24.8pt;
+    margin-top: 50pt;
+    display: flex;
+    margin-left: 5pt;
+}
+
+.rpSir{
+    margin-left: 75pt;
+}
+
+.cowSir img{
+    width: 440px;
+    margin-top: 74px;
+    margin-left: 175px;
+}
+
+@media only screen and (max-width: 800px){
+    .sirPage{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .sirloinIMG img{
+        position: relative;
+        width: auto;
+        height: 500px;
+    }
+    
+    .sirloinIMG{
+        display: flex;
+        justify-content: center;
+    }
+ 
+    .kananSir{
+        margin-top: 20pt;
+        margin-left: 0;
+    }
+ 
+    .cowSir img{
+        margin-left: 0;
+    }
+ 
+    .cowSir{
+        display: flex;
+        justify-content: center;
+    }
+ 
+    .judulSir, .descSir, .priceSir{
+        display: flex;
+        justify-content: center;
+    }
+ }
