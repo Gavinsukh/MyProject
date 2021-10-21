@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+    background:#92C7C7;
+}
+
+header{
+    display: flex;
+    background-image: url("./Asset/profilebackground.jpg");
+    background-size: 100vw;
+    width: 100vw;
+    height: 20vh;
+    background-repeat: no-repeat;
+
+}
+
+.profilebackground img{
+    width: 7vw;
+    height: 7vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+.nama{
+    color: white;
+    font-size: 3vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+
+.editProfile{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 0.9vw;
+    line-height: 1;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    border-radius: 30px;
+    background: whitesmoke;
+    color: rgba(0, 0, 0, 0.486);
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-weight: bolder;
+    margin-top: 1vw;
+}
+
+/* bawah header */
+.box{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    /* justify-content:space-evenly; */
+    /* padding: 1vw; */
+}
+
+.boxpemisah{
+    /* background-color: blue; */
+    display: flex;
+    /* padding:2vw; */
+    margin-left: 20vw;
+    /* margin-right: 2vw; */
+    margin-top: 1vw;
+}
+
+.boxpemisah2{
+    /* background-color: deeppink; */
+    margin-left: 15vw;
+    padding: 2vw;
+    display: flex;
+}
+
+/* button */
+.create{
+    border-radius: 2vw;
+    padding: 1vw;
+    background-color: rgba(0, 165, 0, 0.788);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.cashbook{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 1vw;
+    line-height: 1;
+    padding: 0.5vw;
+    /* border-radius: 60px; */
+    background:none;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-bottom: 2.2vw;
+    font-weight: bolder;
+    margin-top: 2vw;
+    margin-right: 5vw;
+}
+
+.settings{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 1vw;
+    line-height: 1;
+    padding: 0.5vw;
+    /* border-radius: 60px; */
+    background:none;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-bottom: 2.2vw;
+    font-weight: bolder;
+    margin-top: 2vw;
+    margin-right: 5vw;
+}
+
+.help{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 1vw;
+    line-height: 1;
+    padding: 0.5vw;
+    /* border-radius: 60px; */
+    background:none;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-bottom: 2.2vw;
+    font-weight: bolder;
+    margin-top: 2vw;
+    margin-right: 5vw;
+}
+
+.about{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 1vw;
+    line-height: 1;
+    padding: 0.5vw;
+    /* border-radius: 60px; */
+    background:none;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-bottom: 2.2vw;
+    font-weight: bolder;
+    margin-top: 2vw;
+    margin-right: 5vw;
+}
+
+/* create cashbook layer */
+.layer2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.box2{
+    background-color: rgba(255, 255, 255, 0.74);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15vw 35vw;
+    border-radius: 0.5vw;
+}
+
+.title2{
+    color: rgb(43, 136, 105);
+    font-weight: bolder;
+    font-size: 1.5vw;
+    
+    margin-bottom: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.tulisanChoosetype{
+    margin-top: 1vw;
+    
+    margin-right: 9vw; 
+    font-weight: bolder;
+}
+
+.back4{
+    margin-right: 7vw;
+}
+
+.backbutton4{
+    margin-top: 1vw;
+    border-radius: 1.2vw;
+    width: 2.5vw;
+}
+
+.whiteline4{
+    background-color: white;
+    width: 100%;
+    height: 0.1vw;
+    margin-bottom: 1vw;
+}
+
+
+.kumpulanbutton{
+    margin-top: 2vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.kumpulanbutton button{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 1.5vw;
+    line-height: 1;
+    padding: 0.6vw;
+    border-radius: 30px;
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.kumpulanbutton button:hover{
+    background: #778899;
+}
+
+.personal{
+    margin-right: 3vw;
+}
+
+
+/* .boxPersonalShared{
+    display: none;
+} */
+
+.boxPERSONAL{
+    background-color:whitesmoke;
+    width: 20vw;
+    height: 15vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(167, 167, 167);
+    cursor: pointer;
+    /* display: none; */
+}
+
+.boxPERSONAL:hover{
+    background: #F7E7CE;
+}
+
+.boxGreen{
+    background: #B0E0E6;
+    border-radius: 1.2vw;
+    width: 18vw;
+    height: 12vw;
+    margin-bottom: 0.5vw;
+}
+
+.pembatasPersonalShared{
+    margin-top: 2vw;
+    margin-left: 2vw;
+    background-color:whitesmoke;
+    border-radius: 1.2vw;
+    width: 96vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    color: rgb(167, 167, 167);
+    /* display: none; */
+}
+
+.pembatasPersonalShared img{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+
+.boxSHARED{
+    background-color:whitesmoke;
+    width: 20vw;
+    height: 13vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(167, 167, 167);
+    cursor: pointer;
+    /* display: none; */
+}
+
+.boxSHARED:hover{
+    background: #F7E7CE;
+}
+
+.boxBlue{
+    margin-top: 1vw;
+    background: #66ff7aa8;
+    border-radius: 1.2vw;
+    width: 18vw;
+    height: 12vw;
+    margin-bottom: 0.5vw;
+}

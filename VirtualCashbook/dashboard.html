@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboardstyle.css">
+    <!-- <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script> -->
+</head>
+
+<STYLE>A {text-decoration: none;} </STYLE>
+
+<body>
+    
+    <!-- layer 2 -->
+
+    <div class="layer2" id="Layer2">
+        <div class="box2">
+            <div class="title2">
+                <div class="back4">
+                    <input type="image" class="backbutton4" id="backButton4" src="./Asset/back.png">
+                </div>
+                <div class="tulisanChoosetype">
+                    Choose Type
+                </div>
+            </div>
+            <div class="whiteline4">
+
+            </div>
+
+            <div class="kumpulanbutton">
+                <div class="personal">
+                    <a href="personal.html"><button id="bukaPersonal"> Personal</button></a>
+                </div>
+                <div class="bisnis">
+                    <a href="bisnis.html">
+                        <button>Business</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- layer 1 -->
+
+    <header >
+        <div class="profilebackground">
+            <img src="./Asset/user2.png" alt="">
+        </div>
+
+        <div class="nama">
+            Name
+            <div class="editprofile">
+                <a href="userprofile.html">
+                    <button class="editProfile"> Edit Profile</button>
+                </a>
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="box">
+        <div class="boxpemisah">
+            <a href="dashboard.html">
+                <button class="cashbook">CASHBOOK</button>
+            </a>
+            <a href="settings.html">
+                <button class="settings">SETTINGS</button>
+            </a>
+            <a href="about.html">
+                <button class="about">ABOUT</button>
+            </a>
+            <a href="help.html">
+                <button class="help">HELP</button>
+            </a>
+        </div>
+
+        <div class="boxpemisah2">
+            <button class="create" id="Create"> Create a new Cashbook</button>
+        </div>
+        
+    </div>
+
+    <div class="boxPersonalShared">
+
+        <a href="personal.html">
+            <div class="boxPERSONAL" id="BOXPERSONAL">
+                <div class="boxGreen">
+    
+                </div>
+                Personal
+            </div>
+        </a>
+      <div class="pembatasPersonalShared">
+        <img src="./Asset/star.png" alt=""> Shared
+      </div>  
+
+      <a href="bisnis.html">
+        <div class="boxSHARED">
+            <div class="boxBlue">
+    
+            </div>
+            Shared
+          </div>
+      </a>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

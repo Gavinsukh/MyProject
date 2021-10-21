@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business</title>
+    <link rel="stylesheet" href="bisnis.css">
+</head>
+
+<body>
+
+    <!-- LAYER 3 ADD PAYMENT-->
+    <div class="layer3" id="Layer3">
+        <div class="box3">
+            <div class="title3">
+                <div class="back5">
+                    <input type="image" class="backbutton5" id="backButton5" src="./Asset/back.png">
+                </div>
+                <div class="tulisanPayment">
+                    Payment Details
+                </div>
+            </div>
+            <div class="whiteline5">
+
+            </div>
+            <div class="checkbox">
+                <div class="debitbox">
+                    <input type="checkbox" value="Debit" >Debit
+                </div>
+                <div class="creditbox">
+                    <input type="checkbox" value="Credit" >Credit
+                </div>
+                <script>
+                    $(document).ready(function(){
+                        $('input:checkbox').click(function() {
+                            $('input:checkbox').not(this).prop('checked', false);
+                        });
+                    });
+                    </script>
+            </div>
+
+            <table class="tableDetails">
+                <tr>
+                    <td>Date</td>
+                    <td><input type="text" size="20vw"></td>
+                </tr>
+                <tr>
+                    <td>Details</td>
+                    <td>
+                        <div class="detailsField">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Amount</td>
+                    <td><input type="text" size="20vw"></td>
+                </tr>
+            </table>
+
+            <div class="AddContainer">
+                <div class="ADD">
+                     <button id="Add">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- layer 2 SHARE -->
+        <div class="layer2" id="Layer2">
+            <div class="box2">
+                <div class="title2">
+                    <div class="back4">
+                        <input type="image" class="backbutton4" id="backButton4" src="./Asset/back.png">
+                    </div>
+                    <div class="tulisanChoosetype">
+                        Share With People and Groups
+                    </div>
+                </div>
+                <div class="whiteline4">
+    
+                </div>
+    
+                <div class="sharecontainer">
+                    <img src="./Asset/share.png" alt="">
+                    <div class="tulisanShare">
+                        Get Link <br> <br>
+                        <div class="anyone">
+                            Anyone with this link can edit
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="kumpulanbutton">
+                    <div class="getLink">
+                         <button id="Share">Share</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- layer 1 -->
+
+    <div class="header">
+        <div class="deretanVC">
+            <div class="userPP">
+                <img src="./Asset/user2.png" alt="">
+                <div class="name">
+                    Business
+                </div>
+            </div>
+            <div class="vc">
+                <img src="./Asset/VC-removebg-preview.png" alt="">
+            </div>
+
+            <div class="shareadd">
+                <button id="SHARED"> Share</button>
+                <button id="ADD"> Add Payment Details</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="hyperlink">
+        <a href="dashboard.html">
+            <button class="cashbook">CASHBOOK</button>
+        </a>
+        <a href="settings.html">
+            <button class="settings">SETTINGS</button>
+        </a>
+        <a href="about.html">
+            <button class="about">ABOUT</button>
+        </a>
+        <a href="help.html">
+            <button class="help">HELP</button>
+        </a>
+    </div>
+
+    <div class="downloadedit">  
+
+        <div class="download">
+            <button id="download">Download</button>
+        </div>
+
+        <div class="edit">
+
+            <div class="editLayer2" id="EDITLAYER2">
+                Edit Mode ON
+                <button id="EDITTUTUP"> Edit</button>
+            </div>
+
+            <div class="editlayer1" id="EDITLAYER1">
+                <button id="EDITBUKA">Edit</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <div class="contentheader">
+                DEBIT
+            </div>
+
+            <div class="Desc">
+                <div class="descText">DATE</div>
+                <div class="descText">PARTICULAR</div>
+                <div class="descText">QTY</div>
+                <div class="descText">PRICE</div>
+                <div class="descText">AMOUNT</div>
+            </div>
+
+            <div class="kotak">
+                <div class="dateData">
+                    <div class="whiteline2"></div>
+                </div>
+    
+                <div class="partData">
+                    <div class="whiteline2"></div> 
+                </div>
+                
+                <div class="qtydata">
+                    <div class="whiteline2"></div> 
+                </div>
+                <div class="pricedata">
+                    <div class="whiteline2"></div> 
+                </div>
+                <div class="amountData">
+    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="whiteline">
+
+        </div>
+
+        <div class="container">
+            <div class="contentheader">
+                CREDIT
+            </div>
+
+            <div class="Desc">
+                <div class="descText">DATE</div>
+                <div class="descText">PARTICULAR</div>
+                <div class="descText">QTY</div>
+                <div class="descText">PRICE</div>
+                <div class="descText">AMOUNT</div>
+            </div>
+
+            <div class="kotak">
+                <div class="dateData">
+                    <div class="whiteline2"></div>
+                </div>
+                <div class="partData">
+                    <div class="whiteline2"></div> 
+                </div>
+                <div class="qtydata">
+                    <div class="whiteline2"></div> 
+                </div>
+                <div class="pricedata">
+                    <div class="whiteline2"></div> 
+                </div>
+                <div class="amountData">
+    
+                </div>
+            </div>
+    </div>
+
+    <script src="bisnis.js"></script>
+</body>
+</html>
